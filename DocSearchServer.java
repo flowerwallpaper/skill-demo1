@@ -25,7 +25,7 @@ class FileHelpers {
         return result;
     }
     static String readFile(File f) throws IOException {
-        return new String(Files.readAllBytes(f.toPath()));
+        return new String(f.getName());
     }
 }
 
