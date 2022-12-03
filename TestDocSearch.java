@@ -28,6 +28,7 @@ public class TestDocSearch {
     Handler h = new Handler("./technical/");
     URI rootPath = new URI("http://localhost/search?q=taxation");
     assertTrue(h.handleRequest(rootPath).startsWith("Found 3 paths"));
+    
 	}
 }
 
